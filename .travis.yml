@@ -18,7 +18,7 @@ deploy:
   secret_access_key:
     secure: "$SECRETACCESSKEY"
   region: "us-west-2"  
-  app: " eb_test_app"
+  app: "eb_test_app"
   env: "EbTestApp-env"
   bucket_name: "elasticbeanstalk-us-west-2-740290758360"
   on:
